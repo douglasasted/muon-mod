@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "muon:amber_ore",
+    "muon:deepslate_amber_ore",
     "muon:amber_block",
     "muon:polished_amber",
     "muon:amber_tiles",
