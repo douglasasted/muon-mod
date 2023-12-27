@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X#X",
+    "#A#",
+    "X#X"
+  ],
+  "key": {
+    "#": {
+      "item": "muon:amber_shard"
+    },
+    "X": {
+      "item": "minecraft:deepslate_bricks"
+    },
+    "A": {
+      "item": "muon:amber"
+    }
+  },
+  "result": {
+    "item": "muon:chiseled_amber",
+    "count": 4
+  }
+}

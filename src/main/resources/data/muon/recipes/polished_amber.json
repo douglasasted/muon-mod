@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X#X",
+    "#X#",
+    "X#X"
+  ],
+  "key": {
+    "#": {
+      "item": "muon:amber_shard"
+    },
+    "X": {
+      "item": "minecraft:polished_deepslate"
+    }
+  },
+  "result": {
+    "item": "muon:polished_amber",
+    "count": 5
+  }
+}

@@ -1,9 +1,16 @@
 {
   "itemGroup.muon" : "Muon",
 
+
   "item.muon.amber_shard": "Amber Shard",
   "item.muon.amber": "Amber",
 
+
   "block.muon.amber_ore": "Amber Ore",
-  "block.muon.amber_block": "Amber Block"
+  "block.muon.amber_block": "Amber Block",
+
+  "block.muon.polished_amber": "Polished Amber",
+  "block.muon.amber_tiles": "Amber Tiles",
+  "block.muon.amber_bricks": "Amber Bricks",
+  "block.muon.chiseled_amber": "Chiseled Amber"
 }

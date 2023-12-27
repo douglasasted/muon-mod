@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     "muon:amber_ore",
-    "muon:amber_block"
+    "muon:amber_block",
+    "muon:polished_amber",
+    "muon:amber_tiles",
+    "muon:amber_bricks",
+    "muon:chiseled_amber"
   ]
 }

@@ -1,11 +1,13 @@
 package com.asted.muon.setup;
 
 import com.asted.muon.Muon;
+import net.minecraft.client.Minecraft;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.OreBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -51,8 +53,20 @@ public class Registration
     public static final RegistryObject<Item> AMBER = ITEMS.register("amber", () -> new Item(new Item.Properties().tab(ModSetup.MUON_TAB)));
 
     // Blocks
+
+    //region Amber
     public static final RegistryObject<Block> AMBER_ORE = registerBlock("amber_ore",
             () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3.0f, 3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModSetup.MUON_TAB);
     public static final RegistryObject<Block> AMBER_BLOCK = registerBlock("amber_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(5.0f, 6.0f).requiresCorrectToolForDrops()), ModSetup.MUON_TAB);
+
+    public static final RegistryObject<Block> POLISHED_AMBER = registerBlock("polished_amber",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COBBLED_DEEPSLATE).sound(SoundType.POLISHED_DEEPSLATE)), ModSetup.MUON_TAB);
+    public static final RegistryObject<Block> AMBER_TILES = registerBlock("amber_tiles",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COBBLED_DEEPSLATE).sound(SoundType.DEEPSLATE_TILES)), ModSetup.MUON_TAB);
+    public static final RegistryObject<Block> AMBER_BRICKS = registerBlock("amber_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COBBLED_DEEPSLATE).sound(SoundType.DEEPSLATE_BRICKS)), ModSetup.MUON_TAB);
+    public static final RegistryObject<Block> CHISELED_AMBER = registerBlock("chiseled_amber",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COBBLED_DEEPSLATE).sound(SoundType.DEEPSLATE_BRICKS)), ModSetup.MUON_TAB);
+    //endregion
 }

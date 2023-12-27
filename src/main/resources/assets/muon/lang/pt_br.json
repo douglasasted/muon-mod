@@ -5,5 +5,10 @@
   "item.muon.amber": "Âmbar",
 
   "block.muon.amber_ore": "Minério de âmbar",
-  "block.muon.amber_block": "Bloco de âmbar"
+  "block.muon.amber_block": "Bloco de âmbar",
+
+  "block.muon.polished_amber": "Âmbâr polído",
+  "block.muon.amber_tiles": "Ladrilhos de âmbar",
+  "block.muon.amber_bricks": "Tijolos de âmbâr",
+  "block.muon.chiseled_amber": "Âmbâr talhado"
 }
