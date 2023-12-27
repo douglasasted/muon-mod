@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "muon:amber"
+    }
+  ],
+  "result": {
+    "item": "muon:amber_shard",
+    "count": 9
+  }
+}

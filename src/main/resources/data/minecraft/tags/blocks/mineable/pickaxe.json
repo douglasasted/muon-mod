@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "muon:amber_ore",
+    "muon:amber_block"
+  ]
+}

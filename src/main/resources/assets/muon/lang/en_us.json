@@ -1,0 +1,9 @@
+{
+  "itemGroup.muon" : "Muon",
+
+  "item.muon.amber_shard": "Amber Shard",
+  "item.muon.amber": "Amber",
+
+  "block.muon.amber_ore": "Amber Ore",
+  "block.muon.amber_block": "Amber Block"
+}

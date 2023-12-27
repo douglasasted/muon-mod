@@ -33,9 +33,9 @@ public class Muon
     public Muon()
     {
         // The act of "registering" a mod is to let the minecraft recognize the features of a mod
+        Registration.init();
 
         // Register the deferred registry
-        Registration.init();
 
         // Register the setup method for modloading
         IEventBus modbus = FMLJavaModLoadingContext.get().getModEventBus();

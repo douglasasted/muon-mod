@@ -1,0 +1,9 @@
+{
+  "itemGroup.muon" : "Muon",
+
+  "item.muon.amber_shard": "Fragmento de âmbar",
+  "item.muon.amber": "Âmbar",
+
+  "block.muon.amber_ore": "Minério de âmbar",
+  "block.muon.amber_block": "Bloco de âmbar"
+}
