@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OSO",
+    "SAS",
+    "OSO"
+  ],
+  "key": {
+    "A": {
+      "item": "muon:amber"
+    },
+    "S": {
+      "item": "muon:amber_shard"
+    },
+    "O": {
+      "item": "minecraft:chiseled_deepslate"
+    }
+  },
+  "result": {
+    "item": "muon:chiseled_amber",
+    "count": 4
+  }
+}

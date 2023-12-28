@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:amber_bricks_from_polished_amber"
+    ]
+  },
+  "criteria": {
+    "has_polished_amber": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "muon:polished_amber"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:amber_bricks_from_polished_amber"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_polished_amber",
+      "has_the_recipe"
+    ]
+  ]
+}

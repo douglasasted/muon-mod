@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "muon:amber_bricks"
+    ]
+  },
+  "criteria": {
+    "has_amber_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "muon:amber_shard"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "muon:amber_bricks"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_amber_shard",
+      "has_the_recipe"
+    ]
+  ]
+}

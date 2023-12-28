@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OO",
+    "OO"
+  ],
+  "key": {
+    "O": {
+      "item": "muon:polished_amber"
+    }
+  },
+  "result": {
+    "item": "muon:amber_bricks",
+    "count": 4
+  }
+}

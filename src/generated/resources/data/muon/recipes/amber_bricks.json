@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OSO",
+    "SOS",
+    "OSO"
+  ],
+  "key": {
+    "S": {
+      "item": "muon:amber_shard"
+    },
+    "O": {
+      "item": "minecraft:deepslate_bricks"
+    }
+  },
+  "result": {
+    "item": "muon:amber_bricks",
+    "count": 5
+  }
+}
